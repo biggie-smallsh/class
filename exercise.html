@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <title>EXERCISE</title>
+    <style type="text/css">
+
+        table,th,td{border:whitesmoke 4px solid;border-collapse: collapse}
+        th,td{width: 150px}
+
+        body{background-color: cyan}
+    </style>
+
+</head>
+<body>
+
+<h1>GETTING STARTED WITH HTML</h1>
+
+<BR>
+
+<h1>HTML INTRODUCTION</h1>
+
+<br>
+
+<p>HTML is the standard markup language for creating web pages.</p>
+
+<br>
+
+<h2>What is html</h2>
+
+<ul>
+   <li>HTML stands for hyper text markup language</li>
+    <li>HTML describes the structure of a web page</li>
+    <li>HTML consist of a series of elements</li>
+    <li>HTML elements tell the browser how to display  the content.</li>
+    <li>HTML elements label pieces of content such as "this is the heading", "this is a link"etc</li>
+</ul>
+
+
+
+    <br>
+
+<h2>What is an HTML element?</h2>
+
+    <br>
+
+<p>An HTML  element is defined by a start tag ,some content and an end tag.</p>
+    <p>The HTML element is everything from the start tag to the end tag.</p>
+
+    <br>
+
+<p style="background-color: red">NOTE: Some elements have no content like the (br)element.<br>
+These elements are called empty elements .Empty elements do not have an end tag.</p>
+
+    <br>
+
+    <h1>LIST</h1>
+
+    <BR>
+
+<p>HTML list allow web developers to group a set of related items in list</p>
+    <br>
+
+Example:
+
+<P>An unordered HTML list :</P>
+
+<ul>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+
+
+</ul>
+
+<p>An ordered HTML list :</p>
+
+<ol>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+
+</ol>
+
+<h2>Description list</h2>
+
+<p>HTML also supports description list .A description list is a list of items ,with a description of each term.</p>
+
+<p>Example</p>
+
+<dl>
+    <dt>coffee</dt>
+    <dd>black hot drink.</dd>
+
+     <dt>milk</dt>
+      <dd>white cold drink.</dd>
+</dl>
+
+<h1>IMAGES</h1>
+
+<p>Images can improve the design and the appearance of a web page.
+    Images are linked to web pages and not technically inserted.</p>
+<p>The tag used here has two required attributes :</p>
+<ol>
+    <li>src-specifies the path to the image .</li>
+     <li>alt_specifies an alternate text for the image if the user for some reason cannot view it
+     (because of slow connection, an error in the src attribute or if user uses ascreen reader )</li>
+    </ol>
+<p>If a browser cannot find an image ,it will display the value of the alt attribute.</p>
+
+<p>Example</p>
+
+    <source> <a href="cars.jpg"><p>Glowing stick</p></a></source>
+
+<p>Example of images inserted locally and externally </p>
+
+<src>
+    <img src="cars.jpg" alt="">
+</src>
+
+<p>This is an imaged linked from a local source.  </p>
+
+<img src="download.jpg">
+
+<p>This is an image of a car extracted online </p>
+<img src="download%20(1).jpg">
+
+<p> <u>This is an image of a shoe and the image is also a link .</u></p>
+
+<h1> <u>HYPERLINKS</u></h1>
+<a href="https://apensoftwares.co.ke/">Apen Softwares</a>
+
+<P>Above is an example of a sample of a hyperlink.</P>
+<h1>IFRAMES</h1>
+<p>Iframes are used to display a webpage within a webpage .
+They are used to embed maps and link website to an iframe</p>
+
+<p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.621759385512!2d37.53642085!3d-0.5687369999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182630df239cd7fb%3A0xcaf9427dee90b7af!2sKiamuringa%20Secondary%20School%2C%20Embu%20-%20Siakago%20Road%2C%20Kiamuringa!5e0!3m2!1sen!2ske!4v1686829911563!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+
+<iframe src="yoh.html"name=" exercise_b"title="exercise .html" width="150px"></iframe>
+
+<p>
+    <a href="https://apensoftwares.co.ke/" target=" exercise_b">APEN SOFTWARES</a>
+</p>
+
+<h1>TABLES</h1>
+<p> Below is an example of a table.</p>
+
+<table>
+    <thead>
+    <tr>
+        <th>company name</th>
+        <th>country</th>
+        <th>contact person </th>
+
+    </tr>
+    </thead>
+
+    <tbody>
+<tr>
+    <td style="background-color: blue">kasneb</td>
+    <td style="background-color: blue">kenya</td>
+    <td style="background-color: blue">ruth kameme</td>
+
+</tr>
+
+<tr>
+    <td>rooters</td>
+    <td>rwanda</td>
+    <td>vanessa jane</td>
+
+</tr>
+
+<tr>
+    <td style="background-color: blue">bwarier</td>
+    <td>burundi</td>
+    <td style="background-color: blue">brian nira</td>
+
+</tr>
+</tbody>
+<tfoot>
+<tr>
+    <th>company name</th>
+        <th>country</th>
+        <th>contact person </th>
+</tr>
+
+</tfoot>
+
+</table>
+
+<h1>FORMS</h1>
+<p>A simple example of forms is given:</p>
+
+<form action="">
+  <p>First name </p>
+    <input type="text"placeholder="name"required>
+
+<br>
+    <p>last name</p>
+
+    <input type="text"placeholder="second name" required>
+<br><br><br><br>
+
+<br><br>
+
+<input type="radio" required>
+
+<label>I have a bike</label>
+<br>
+
+<input type="radio" required>
+<label>I have a car.</label>
+<br>
+<input type="radio" required>
+<label>I have a plane.</label>
+<br> <br><br>
+
+
+<input type="submit" value="register" required>
+<!-- <button>submit</button>-->
+
+    </form>
+
+</body>
+</html>
